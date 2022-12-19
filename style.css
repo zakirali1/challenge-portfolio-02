@@ -1,0 +1,241 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flex-container div  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 70px;
+    width: 100%;
+    background-color: #39393A;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace
+    
+    
+
+}
+
+.container {
+    position: fixed;
+
+}
+
+li {
+    display: inline;
+    margin: 20px
+}
+
+
+
+.content {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    height: 700px;
+    gap: 20px;
+    
+    
+    
+}
+
+.grid-kid p {
+    margin: 20px;
+}
+
+
+
+.grid-container {
+    margin-top: 70px; 
+    
+}
+
+.grid-kid {
+    text-align: center;
+    margin: 25px;
+    padding: 50px;
+    display: grid;
+}
+
+#avatar {
+    min-height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/e1/4c/bd/e14cbd0e7d0f94f7baf772b03181dbc9.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+
+}
+    
+
+a {
+    text-decoration:  none;
+}
+
+a:active {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+.inner-grid div {
+    display: grid;
+    
+}
+
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 600px;
+    margin: 10px;
+    gap: 20px;
+
+    
+}
+
+.wrapper a {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: lightcoral;
+    
+   
+}
+
+.grid1 {
+    margin-top: 20px;
+    background-image: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2HbynDtkRoykvenxEGPTaF/2228b6fc73bf7c63ba8a7d0946c028cb/-BS-_Hero_Image_-_Desktop.jpg");
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.grid2 {
+    background-image: url("https://assets.entrepreneur.com/content/3x2/2000/how-read-website-source-code.jpg");
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.grid3 {
+    background-image: url("https://dropnite.com/images/2434-6625-1979.jpg");
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.grid1, .grid2, .grid3{
+    align-items: center;
+    
+    
+}
+
+#email {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    padding: 35px;
+  
+    text-align: center;
+    background-color:#39393A;
+    color:whitesmoke;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width:768px) {
+
+.flex-container div  {
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    grid-template-rows: 100px;
+    justify-content: center;
+
+    
+    }
+
+    body {
+        background-color: #39393A;
+    }
+
+    main {
+        background-color:#39393A;
+        color: white;
+    }
+
+    .container { 
+        position: relative;
+        text-align: center;
+    }
+
+
+
+li {
+
+    display: block;
+    padding:  10px;
+    
+    
+    }
+
+#avatar {
+    background-image: none;
+    min-height: 0vh;
+    margin-top: 0px;
+   
+    
+}
+
+.grid1, .grid2, .grid3{
+    margin: 20px;
+    height: 300px;
+    align-items: center;
+    
+    
+}
+
+.wrapper {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    margin: 0px;
+}
+
+.wrapper a {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    
+   
+}
+
+.grid-container {
+ border: none;
+    
+}
+
+.inner-grid div {
+    border: none;
+
+    }
+
+}
